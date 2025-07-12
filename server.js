@@ -39,7 +39,7 @@ function formatAIResponseToMarkdown(data) {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://convergeai-7ss3.onrender.com",
+    origin: "https://convergeai-7ss3.onrender.com/",
     credentials:true,
   },
 });

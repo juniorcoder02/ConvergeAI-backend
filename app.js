@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin:'https://convergeai-7ss3.onrender.com',
+  origin:'https://convergeai-7ss3.onrender.com/',
   credentials:true,
 }));
 app.use(express.json());
