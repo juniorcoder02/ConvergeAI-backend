@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin:'https://converge-ai-chi.vercel.app/',
+  origin:'https://converge-ai-chi.vercel.app',
   credentials:true,
 }));
 app.use(express.json());

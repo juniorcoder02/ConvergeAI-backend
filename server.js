@@ -39,7 +39,8 @@ function formatAIResponseToMarkdown(data) {
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://converge-ai-chi.vercel.app/",
+    origin: "https://converge-ai-chi.vercel.app",
+    credentials:true,
   },
 });
 
